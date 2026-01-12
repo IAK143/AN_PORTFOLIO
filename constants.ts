@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
     name: 'AirAble',
     description: 'AI-powered air quality guide providing real-time hyperlocal insights.',
     status: 'Live',
-    techStack: ['React', 'D3.js', 'OpenAI API', 'Node.js'],
+    techStack: ['React', 'D3.js', 'OWM', 'Node.js'],
     features: ['Real-time AQI Maps', 'AI Health Recommendations', 'Historical Trends'],
     url: '#',
   },
