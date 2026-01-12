@@ -21,7 +21,7 @@ const App: React.FC = () => {
   // We map the vertical scroll progress (0 to 1) to X/Y coordinates in the viewport (fixed position).
   // This allows the ball to "travel" to specific empty zones on the screen as sections scroll by.
 
-  // 0.0 (Hero): Right of "Ai4" title
+  // 0.0 (Hero): Right of "AN" title
   // 0.2 (Philosophy): Left side empty column
   // 0.5 (Projects): Top right empty space
   // 0.8 (Skills): Bottom left empty space
@@ -83,7 +83,7 @@ const App: React.FC = () => {
       {/* Navigation */}
       <nav className="fixed top-0 left-0 w-full p-8 md:px-12 flex justify-between items-center z-50 pointer-events-none mix-blend-difference">
           <Magnetic>
-             <div className="text-white font-bold text-xl tracking-tighter cursor-pointer pointer-events-auto">Ai4</div>
+             <div className="text-white font-bold text-xl tracking-tighter cursor-pointer pointer-events-auto">AN</div>
           </Magnetic>
           <div className="text-[10px] font-mono text-neutral-400 hidden md:flex items-center gap-4 opacity-70">
             <span className="w-1.5 h-1.5 rounded-full bg-green-500 animate-pulse"></span>
@@ -117,7 +117,7 @@ const App: React.FC = () => {
 
              {/* Massive Brutalist Headline */}
              <TextReveal className="text-[5rem] md:text-[10rem] lg:text-[12rem] leading-[0.85] font-bold text-white tracking-tighter mb-8">
-               Ai4
+               AN
              </TextReveal>
              
              <div className="max-w-xl">
@@ -264,7 +264,7 @@ const App: React.FC = () => {
 
         {/* FOOTER */}
         <footer className="py-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-[10px] font-mono text-neutral-600 uppercase tracking-widest">
-            <span>© 2025 Ai4 // V.3.0</span>
+            <span>© 2025 AN // V.3.0</span>
             <span className="mt-2 md:mt-0 flex items-center gap-2">
                 <span className="w-1.5 h-1.5 rounded-full bg-green-500"></span>
                 All Systems Operational
